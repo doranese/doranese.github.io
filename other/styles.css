@@ -1,4 +1,35 @@
 body {
+  margin: 0px;
   padding: 0px;
-  margin:0px;
+}
+.banner p {
+  color: black;
+  font-family: AK50;
+  font-size: 20px;
+  text-align: center;
+  top: 2px;
+}
+.menubar {
+  background-color: darkslategrey;
+  height: 40px;
+  position: sticky;
+  text-align: center;
+  top: 0px;
+}
+.menubar a {
+  color: white;
+  font-family: AK50;
+  font-size: 20px;
+  margin: 10px;
+  position: relative;
+  text-decoration: none;
+  top: 10px;
+}
+@font-face {
+  font-family: AK50;
+  src: url("ak50.ttf");
+}
+@font-face {
+  font-family: NHG;
+  src: url("japanese.otf");
 }
